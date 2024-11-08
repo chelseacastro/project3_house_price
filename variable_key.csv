@@ -1,0 +1,279 @@
+ cols            , cols_unique_values          ,rank, notes                                       
+ MSSubClass      ,160,1, 2-STORY PUD - 1946 & NEWER                 
+ MSSubClass      ,120,2, 1-STORY PUD (Planned Unit Development)     
+ MSSubClass      ,180,3, PUD - MULTILEVEL - INCL SPLIT LEV/FOYER    
+ MSSubClass      ,60,4, 2-STORY 1946 & NEWER                       
+ MSSubClass      ,20,5, 1-STORY 1946 & NEWER ALL STYLES            
+ MSSubClass      ,50,6, 1-1/2 STORY FINISHED ALL AGES              
+ MSSubClass      ,75,7, 2-1/2 STORY ALL AGES                       
+ MSSubClass      ,85,8, SPLIT FOYER                                
+ MSSubClass      ,90,9, DUPLEX - ALL STYLES AND AGES               
+ MSSubClass      ,70,10, 2-STORY 1945 & OLDER                       
+ MSSubClass      ,40,11, 1-STORY W/FINISHED ATTIC ALL AGES          
+ MSSubClass      ,30,12, 1-STORY 1945 & OLDER                       
+ MSSubClass      ,45,13, 1-1/2 STORY - UNFINISHED ALL AGES          
+ MSSubClass      ,150,14, 1-1/2 STORY PUD - ALL AGES                 
+ MSSubClass      ,190,15, 2 FAMILY CONVERSION - ALL STYLES AND AGES  
+ MSSubClass      ,80,16, SPLIT OR MULTI-LEVEL                       
+ MSZoning        , FV                         ,1, Floating Village Residential               
+ MSZoning        , RL                         ,2, Residential Low Density                    
+ MSZoning        , RP                         ,3, Residential Low Density Park               
+ MSZoning        , RM                         ,4, Residential Medium Density                 
+ MSZoning        , RH                         ,5, Residential High Density                   
+ MSZoning        , C                          ,6, Commercial                                 
+ MSZoning        , A                          ,7, Agriculture                                
+ MSZoning        , I                          ,8, Industrial                                 
+ Street          , Pave                       ,1, Paved                                      
+ Street          , Grvl                       ,2, Gravel                                     
+ Alley           , Pave                       ,1, Paved                                      
+ Alley           , Grvl                       ,2, Gravel                                     
+ Alley           , NA                         ,3, No alley access                            
+ LotShape        , Reg                        ,1, Regular                                    
+ LotShape        , IR1                        ,2, Slightly irregular                         
+ LotShape        , IR2                        ,3, Moderately irregular                       
+ LotShape        , IR3                        ,4, Irregular                                  
+ LandContour     , Lvl                        ,1, Near Flat/Level                            
+ LandContour     , Bnk                        ,2, Banked - Quick rise from street grade      
+ LandContour     , HLS                        ,3, Hillside - Significant slope side to side  
+ LandContour     , Low                        ,4, Depression                                 
+ Utilities       , AllPub                     ,1," All public Utilities (Electricity, Gas, Water, & Sewer) "
+ Utilities       , NoSewr                     ,2," Electricity, Gas, and Water (Septic Tank)  "
+ Utilities       , NoSeWa                     ,3, Electricity and Gas Only                   
+ Utilities       , ELO                        ,4, Electricity only                           
+ LotConfig       , CulDSac                    ,1, Cul-de-sac                                 
+ LotConfig       , Corner                     ,2, Corner lot                                 
+ LotConfig       , FR2                        ,3, Frontage on 2 sides of property            
+ LotConfig       , Inside                     ,4, Inside lot                                 
+ LandSlope       , Gtl                        ,1, Gentle slope                               
+ LandSlope       , Mod                        ,2, Moderate slope                             
+ LandSlope       , Sev                        ,3, Severe slope                               
+ Neighborhood    , NoRidge                    ,1, Northridge                                 
+ Neighborhood    , NridgHt                    ,2, Northridge Heights                         
+ Neighborhood    , StoneBr                    ,3, Stone Brook                                
+ Neighborhood    , Somerst                    ,4, Somerset                                   
+ Neighborhood    , Timber                     ,5, Timberland                                 
+ Neighborhood    , Veenker                    ,6, Veenker                                    
+ Neighborhood    , CollgCr                    ,7, College Creek                              
+ Neighborhood    , NWAmes                     ,8, Northwest Ames                             
+ Neighborhood    , Blmngtn                    ,9, Bloomington Heights                        
+ Neighborhood    , Names                      ,10, North Ames                                 
+ Neighborhood    , ClearCr                    ,11, Clear Creek                                
+ Neighborhood    , SWISU                      ,12, South & West of ISU                        
+ Neighborhood    , OldTown                    ,13, Old Town                                   
+ Neighborhood    , Edwards                    ,14, Edwards                                    
+ Neighborhood    , BrkSide                    ,15, Brookside                                  
+ Neighborhood    , Mitchel                    ,16, Mitchell                                   
+ Neighborhood    , SawyerW                    ,17, Sawyer West                                
+ Neighborhood    , Sawyer                     ,18, Sawyer                                     
+ Neighborhood    , BrDale                     ,19, Briardale                                  
+ Neighborhood    , MeadowV                    ,20, Meadow Village                             
+ Neighborhood    , IDOTRR                     ,21, Iowa DOT and Railroad                      
+ Condition       , PosA                       ,1, Adjacent to positive feature               
+ Condition       , PosN                       ,2, Near positive feature                      
+ Condition       , Norm                       ,3, Normal                                     
+ Condition       , Feedr                      ,4, Adjacent to feeder street                  
+ Condition       , Artery                     ,5, Adjacent to arterial street                
+ Condition       , RRNn                       ,6, Within 200' of North-South Railroad        
+ Condition       , RRAe                       ,7, Adjacent to East-West Railroad             
+ Condition       , RRAn                       ,8, Adjacent to North-South Railroad           
+ Condition       , RRNe                       ,9, Within 200' of East-West Railroad          
+ BldgType        , 1Fam                       ,1, Single-family Detached                     
+ BldgType        , TwnhsE                     ,2, Townhouse End Unit                         
+ BldgType        , TwnhsI                     ,3, Townhouse Inside Unit                      
+ BldgType        , Duplx                      ,4, Duplex                                     
+ BldgType        , 2FmCon                     ,5, Two-family Conversion                      
+ HouseStyle      , 2.5Fin                     ,1," Two and one-half story, finished           "
+ HouseStyle      , 2Story                     ,2, Two-story                                  
+ HouseStyle      , 1Story                     ,3, One-story                                  
+ HouseStyle      , 1.5Fin                     ,4," One and one-half story, finished           "
+ HouseStyle      , SLvl                       ,5, Split Level                                
+ HouseStyle      , SFoyer                     ,6, Split Foyer                                
+ HouseStyle      , 1.5Unf                     ,7," One and one-half story, unfinished         "
+ HouseStyle      , 2.5Unf                     ,8," Two and one-half story, unfinished         "
+ Rating          ,10,1, Very Excellent                             
+ Rating          ,9,2, Excellent                                  
+ Rating          ,8,3, Very Good                                  
+ Rating          ,7,4, Good                                       
+ Rating          ,6,5, Above Average                              
+ Rating          ,5,6, Average                                    
+ Rating          ,4,7, Below Average                              
+ Rating          ,3,8, Fair                                       
+ Rating          ,2,9, Poor                                       
+ Rating          ,1,10, Very Poor                                  
+ RoofStyle       , Gable                      ,1, Gable                                      
+ RoofStyle       , Hip                        ,2, Hip                                        
+ RoofStyle       , Gambrel                    ,3, Gambrel (Barn)                             
+ RoofStyle       , Mansard                    ,4, Mansard                                    
+ RoofStyle       , Shed                       ,5, Shed                                       
+ RoofStyle       , Flat                       ,6, Flat                                       
+ RoofMatl        , ClyTile                    ,1, Clay or Tile                               
+ RoofMatl        , WdShngl                    ,2, Wood Shingles                              
+ RoofMatl        , WdShake                    ,3, Wood Shakes                                
+ RoofMatl        , Metal                      ,4, Metal                                      
+ RoofMatl        , Tar&Grv                    ,5, Gravel & Tar                               
+ RoofMatl        , CompShg                    ,6, Standard (Composite) Shingle               
+ RoofMatl        , Membran                    ,7, Membrane                                   
+ RoofMatl        , Roll                       ,8, Roll                                       
+ Exterior        , Stone                      ,1, Stone                                      
+ Exterior        , BrkFace                    ,2, Brick Face                                 
+ Exterior        , BrkComm                    ,3, Brick Common                               
+ Exterior        , VinylSd                    ,4, Vinyl Siding                               
+ Exterior        , CemntBd                    ,5, Cement Board                               
+ Exterior        , HdBoard                    ,6, Hard Board                                 
+ Exterior        , Stucco                     ,7, Stucco                                     
+ Exterior        , Wd Sdng                    ,8, Wood Siding                                
+ Exterior        , WdShing                    ,9, Wood Shingles                              
+ Exterior        , MetalSd                    ,10, Metal Siding                               
+ Exterior        , AsbShng                    ,11, Asbestos Shingles                          
+ Exterior        , AsphShn                    ,12, Asphalt Shingles                           
+ Exterior        , ImStucc                    ,13, Imitation Stucco                           
+ Exterior        , Plywood                    ,14, Plywood                                    
+ Exterior        , CBlock                     ,15, Cinder Block                               
+ Exterior        , PreCast                    ,16, PreCast                                    
+ Exterior        , Other                      ,17, Other                                      
+ MasVnrType      , Stone                      ,1, Stone                                      
+ MasVnrType      , BrkFace                    ,2, Brick Face                                 
+ MasVnrType      , BrkCmn                     ,3, Brick Common                               
+ MasVnrType      , CBlock                     ,4, Cinder Block                               
+ MasVnrType      , None                       ,5, None                                       
+ ExterQual       , Ex                         ,1, Excellent                                  
+ ExterQual       , Gd                         ,2, Good                                       
+ ExterQual       , TA                         ,3, Typical/Average                            
+ ExterQual       , Fa                         ,4, Fair                                       
+ ExterQual       , Po                         ,5, Poor                                       
+ ExterCond       , Ex                         ,1, Excellent                                  
+ ExterCond       , Gd                         ,2, Good                                       
+ ExterCond       , TA                         ,3, Typical/Average                            
+ ExterCond       , Fa                         ,4, Fair                                       
+ ExterCond       , Po                         ,5, Poor                                       
+ Foundation      , PConc                      ,1, Poured Concrete                            
+ Foundation      , Stone                      ,2, Stone                                      
+ Foundation      , BrkTil                     ,3, Brick & Tile                               
+ Foundation      , CBlock                     ,4, Cinder Block                               
+ Foundation      , Slab                       ,5, Slab                                       
+ Foundation      , Wood                       ,6, Wood                                       
+ BsmtQual        , Ex                         ,1, Excellent (100+ inches)                    
+ BsmtQual        , Gd                         ,2, Good (90-99 inches)                        
+ BsmtQual        , TA                         ,3, Typical (80-89 inches)                     
+ BsmtQual        , Fa                         ,4, Fair (70-79 inches)                        
+ BsmtQual        , Po                         ,5, Poor (<70 inches)                          
+ BsmtQual        , NA                         ,6, No Basement                                
+ BsmtCond        , Ex                         ,1, Excellent                                  
+ BsmtCond        , Gd                         ,2, Good                                       
+ BsmtCond        , TA                         ,3, Typical (slight dampness)                  
+ BsmtCond        , Fa                         ,4, Fair (some dampness)                       
+ BsmtCond        , Po                         ,5, Poor (severe issues)                       
+ BsmtCond        , NA                         ,6, No Basement                                
+ BsmtExposure    , Gd                         ,1, Good Exposure                              
+ BsmtExposure    , Av                         ,2, Average Exposure                           
+ BsmtExposure    , Mn                         ,3, Minimum Exposure                           
+ BsmtExposure    , No                         ,4, No Exposure                                
+ BsmtExposure    , NA                         ,5, No Basement                                
+ BsmtFinType     , GLQ                        ,1, Good Living Quarters                       
+ BsmtFinType     , ALQ                        ,2, Average Living Quarters                    
+ BsmtFinType     , Rec                        ,3, Average Rec Room                           
+ BsmtFinType     , BLQ                        ,4, Below Average Living Quarters              
+ BsmtFinType     , LwQ                        ,5, Low Quality                                
+ BsmtFinType     , Unf                        ,6, Unfinished                                 
+ BsmtFinType     , NA                         ,7, No Basement                                
+ Heating         , GasA                       ,1, Gas forced warm air furnace                
+ Heating         , GasW                       ,2, Gas hot water or steam heat                
+ Heating         , OthW                       ,3," Hot water or steam, other                  "
+ Heating         , Grav                       ,4, Gravity furnace                            
+ Heating         , Floor                      ,5, Floor Furnace                              
+ Heating         , Wall                       ,6, Wall furnace                               
+ HeatingQC       , Ex                         ,1, Excellent                                  
+ HeatingQC       , Gd                         ,2, Good                                       
+ HeatingQC       , TA                         ,3, Typical/Average                            
+ HeatingQC       , Fa                         ,4, Fair                                       
+ HeatingQC       , Po                         ,5, Poor                                       
+ CentralAir      , Y                          ,1, Yes                                        
+ CentralAir      , N                          ,2, No                                         
+ Electrical      , SBrkr                      ,1, Standard Circuit Breakers                  
+ Electrical      , FuseA                      ,2," Fuse Box, 60 AMP, all Romex                "
+ Electrical      , FuseF                      ,3," 60 AMP Fuse Box, mostly Romex              "
+ Electrical      , FuseP                      ,4," 60 AMP Fuse Box, knob & tube wiring        "
+ Electrical      , Mix                        ,5, Mixed                                      
+ KitchenQual     , Ex                         ,1, Excellent                                  
+ KitchenQual     , Gd                         ,2, Good                                       
+ KitchenQual     , TA                         ,3, Typical/Average                            
+ KitchenQual     , Fa                         ,4, Fair                                       
+ KitchenQual     , Po                         ,5, Poor                                       
+ Functional      , Typ                        ,1, Typical Functionality                      
+ Functional      , Min1                       ,2, Minor Deductions 1                         
+ Functional      , Min2                       ,3, Minor Deductions 2                         
+ Functional      , Mod                        ,4, Moderate Deductions                        
+ Functional      , Maj1                       ,5, Major Deductions 1                         
+ Functional      , Maj2                       ,6, Major Deductions 2                         
+ Functional      , Sev                        ,7, Severely Damaged                           
+ Functional      , Sal                        ,8, Salvage Only                               
+ FireplaceQu     , Ex                         ,1, Excellent (Exceptional Masonry)            
+ FireplaceQu     , Gd                         ,2, Good (Masonry on main level)               
+ FireplaceQu     , TA                         ,3, Average (Main area prefabricated or basement masonry) 
+ FireplaceQu     , Fa                         ,4, Fair (Prefabricated in basement)           
+ FireplaceQu     , Po                         ,5, Poor (Ben Franklin Stove)                  
+ FireplaceQu     , NA                         ,6, No Fireplace                               
+ GarageType      , 2Types                     ,1, More than one type                         
+ GarageType      , BuiltIn                    ,2, Built-In (Room above garage)               
+ GarageType      , Attchd                     ,3, Attached                                   
+ GarageType      , Basment                    ,4, Basement Garage                            
+ GarageType      , Detchd                     ,5, Detached                                   
+ GarageType      , CarPort                    ,6, Car Port                                   
+ GarageType      , NA                         ,7, No Garage                                  
+ GarageFinish    , Fin                        ,1, Finished                                   
+ GarageFinish    , RFn                        ,2, Rough Finished                             
+ GarageFinish    , Unf                        ,3, Unfinished                                 
+ GarageFinish    , NA                         ,4, No Garage                                  
+ GarageQual      , Ex                         ,1, Excellent                                  
+ GarageQual      , Gd                         ,2, Good                                       
+ GarageQual      , TA                         ,3, Typical/Average                            
+ GarageQual      , Fa                         ,4, Fair                                       
+ GarageQual      , Po                         ,5, Poor                                       
+ GarageQual      , NA                         ,6, No Garage                                  
+ GarageCond      , Ex                         ,1, Excellent                                  
+ GarageCond      , Gd                         ,2, Good                                       
+ GarageCond      , TA                         ,3, Typical/Average                            
+ GarageCond      , Fa                         ,4, Fair                                       
+ GarageCond      , Po                         ,5, Poor                                       
+ GarageCond      , NA                         ,6, No Garage                                  
+ PavedDrive      , Y                          ,1, Paved                                      
+ PavedDrive      , P                          ,2, Partial Pavement                           
+ PavedDrive      , N                          ,3, Dirt/Gravel                                
+ PoolQC          , Ex                         ,1, Excellent                                  
+ PoolQC          , Gd                         ,2, Good                                       
+ PoolQC          , TA                         ,3, Average/Typical                            
+ PoolQC          , Fa                         ,4, Fair                                       
+ PoolQC          , NA                         ,5, No Pool                                    
+ Fence           , GdPrv                      ,1, Good Privacy                               
+ Fence           , GdWo                       ,2, Good Wood                                  
+ Fence           , MnPrv                      ,3, Minimum Privacy                            
+ Fence           , MnWw                       ,4, Minimum Wood/Wire                          
+ Fence           , NA                         ,5, No Fence                                   
+ MiscFeature     , Elev                       ,1, Elevator                                   
+ MiscFeature     , Gar2                       ,2, 2nd Garage                                 
+ MiscFeature     , TenC                       ,3, Tennis Court                               
+ MiscFeature     , Shed                       ,4, Shed (over 100 SF)                         
+ MiscFeature     , Othr                       ,5, Other                                      
+ MiscFeature     , NA                         ,6, None                                       
+ SaleType        , New                        ,1, New Home                                   
+ SaleType        , WD                         ,2, Warranty Deed - Conventional               
+ SaleType        , CWD                        ,3, Warranty Deed - Cash                       
+ SaleType        , VWD                        ,4, Warranty Deed - VA Loan                    
+ SaleType        , Con                        ,5, Contract 15% Down Payment                  
+ SaleType        , ConLD                      ,6, Contract Low Down Payment                  
+ SaleType        , ConLI                      ,7, Contract Low Interest                      
+ SaleType        , ConLw                      ,8, Contract Low Down and Interest             
+ SaleType        , COD                        ,9, Court Officer Deed/Estate                  
+ SaleType        , Oth                        ,10, Other                                      
+ SaleCondition   , Normal                     ,1, Normal Sale                                
+ SaleCondition   , Partial                    ,2," Partial (New Home, not completed)          "
+ SaleCondition   , Alloca                     ,3, Allocation (Linked Properties)             
+ SaleCondition   , AdjLand                    ,4, Adjoining Land Purchase                    
+ SaleCondition   , Family                     ,5, Family Sale                                
+ SaleCondition   , Abnorml                    ,6," Abnormal Sale (e.g., foreclosure)          "
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
